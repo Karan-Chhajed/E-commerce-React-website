@@ -2,36 +2,36 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'hack and slash',
+      imageUrl: 'https://c4.wallpaperflare.com/wallpaper/428/474/509/darksiders-3-ps4-gameplay-review-wallpaper-preview.jpg',
       id: 1,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/hackandslash'
     },
     {
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'strategy',
+      imageUrl: 'https://i.ytimg.com/vi/vtogcrIc3Pw/maxresdefault.jpg',
       id: 2,
-      linkUrl: 'shop/jackets'
+      linkUrl: 'shop/strategy'
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'sports',
+      imageUrl: 'https://images7.alphacoders.com/932/thumb-350-932703.jpg',
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: 'shop/sports'
     },
     {
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      title: 'first person shooters',
+      imageUrl: 'https://images4.alphacoders.com/676/thumb-1920-676369.jpg',
       size: 'large',
       id: 4,
-      linkUrl: 'shop/womens'
+      linkUrl: 'shop/fps'
     },
     {
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      title: 'story',
+      imageUrl: 'https://images.alphacoders.com/150/thumb-1920-150363.jpg',
       size: 'large',
       id: 5,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/story'
     }
   ]
 };
