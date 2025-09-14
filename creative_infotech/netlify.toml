@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "creative_infotech/build"
+  base = "creative_infotech"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NODE_OPTIONS = "--openssl-legacy-provider"
