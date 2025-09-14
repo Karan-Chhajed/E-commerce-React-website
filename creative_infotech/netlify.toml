@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "creative_infotech/build"
-  base = "creative_infotech"
+  base = "creative_infotech"           
+  publish = "creative_infotech/build" 
+  command = "npm install && npm run build"
 
 [build.environment]
   NODE_VERSION = "18"
