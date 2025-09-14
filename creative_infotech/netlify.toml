@@ -1,6 +1,6 @@
 [build]
-  base = "creative_infotech"           
-  publish = "creative_infotech/build" 
+  base = "creative_infotech"           # points to your React app folder
+  publish = "build"                    # relative to base folder
   command = "npm install && npm run build"
 
 [build.environment]
