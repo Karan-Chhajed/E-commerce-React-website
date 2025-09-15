@@ -1,8 +1,6 @@
-import React from 'react';
+import './contact.styles.scss';
 
-import './about.styles.scss';
-
-const AboutPage = () => (
+const ContactPage = () => (
   <div className='about-page'>
     <h1 className='title'>About Me</h1>
     <p className='description'>
@@ -28,4 +26,4 @@ const AboutPage = () => (
   </div>
 );
 
-export default AboutPage;
+export default ContactPage;
