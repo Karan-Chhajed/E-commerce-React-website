@@ -12,7 +12,7 @@ const StripCheckoutButton = ({price}) => {
     return (
         <StripCheckout
             label = 'Pay Now'
-            name = 'Maximus Clothin Ltd'
+            name = 'Maximus Games Ltd'
             billingAddress
             shippingAddress
             image = ''

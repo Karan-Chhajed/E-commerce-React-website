@@ -1,0 +1,37 @@
+.about-page {
+  padding: 40px;
+  text-align: center;
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    .link-button {
+      background: #0073b1; // LinkedIn blue
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+
+      &:hover {
+        opacity: 0.9;
+      }
+
+      &:nth-child(2) {
+        background: #444; // Email button darker
+      }
+    }
+  }
+}
