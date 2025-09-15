@@ -6,8 +6,9 @@ const AboutPage = () => (
   <div className='about-page'>
     <h1 className='title'>About Me</h1>
     <p className='description'>
-      Hi, I’m Karan 👋 I’m passionate about building great user experiences and
-      scalable frontend systems.
+      Hi, I’m Karan{" "}
+      <span role="img" aria-label="waving hand">👋</span>{" "}
+      I’m passionate about building great user experiences and scalable frontend systems.
     </p>
 
     <div className='links'>
